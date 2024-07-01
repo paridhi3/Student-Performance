@@ -5,12 +5,16 @@
 - **Module** - A valid python file with .py extension. 
 - **Distribution** - How one package relates to other packages and modules.
 
+
 - **setup.py**: The setup.py file helps bundle the code into a distributable package. This package includes Python modules, dependencies, and other necessary files (like data files or configuration files).
 - **PyPI**: PyPI is the official repository for Python packages. By deploying the package to PyPI, it is made available for anyone to download and install using pip.
 - **__init__.py**: The __init__.py file is used to mark a directory as a Python package.
+- **-e .** in requirements.txt: 
+
+`__init__.py` defines a directory as a Python package, while `setup.py` configures how a Python package is installed and distributed.
 
 1. GitHub and code setup
-	-env
-	-requirements.txt
-	-setup.py
-2. 
+- env
+- requirements.txt
+- setup.py
+2. src folder and build package
