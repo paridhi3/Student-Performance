@@ -1,14 +1,14 @@
 # STUDENT PERFORMANCE
 
 ### Let's start with some definitions:
-- **Package** - A folder/directory that contains __init__.py file. 
+- **Package** - A folder/directory that contains __init__.py file.
+  - `__init__.py`: The __init__.py file is used to mark a directory as a Python package.
 - **Module** - A valid python file with .py extension. 
 - **Distribution** - How one package relates to other packages and modules.
 
 
 - `setup.py`: The setup.py file helps bundle the code into a distributable package. This package includes Python modules, dependencies, and other necessary files (like data files or configuration files).
 - `PyPI`: PyPI is the official repository for Python packages. By deploying the package to PyPI, it is made available for anyone to download and install using pip.
-- `__init__.py`: The __init__.py file is used to mark a directory as a Python package.
 - `-e .` in `requirements.txt`: Automatically triggers setup.py to run as the requirements are installed
 - `__init__.py` defines a directory as a Python package, while `setup.py` configures how a Python package is installed and distributed.
 - `components` folder: Consists of all modules that will be created.
