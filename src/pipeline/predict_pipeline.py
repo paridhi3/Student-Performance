@@ -75,13 +75,15 @@ class PredictPipeline:
             preprocessor_path = os.path.join('artifacts', 'preprocessor.pkl')
 
             print("Before Loading")
+
             # Load the saved model and preprocessor objects
             model = load_object(file_path=model_path)
             preprocessor = load_object(file_path=preprocessor_path)
-
             print("After Loading")
+
             # Transform the input features using the preprocessor
             data_scaled = preprocessor.transform(features)
+
             # Predict the target using the loaded model
             preds = model.predict(data_scaled)
 

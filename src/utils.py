@@ -11,7 +11,7 @@ from src.exception import CustomException  # Custom exception for handling error
 
 def save_object(file_path, obj):
     """
-    Save an object to a file using pickle.
+    Save an object (our model) to a file using pickle.
     
     file_path: Path where the object will be saved
     obj: Object to be saved
